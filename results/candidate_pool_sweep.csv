@@ -1,0 +1,5 @@
+candidate_pool_k,candidate_recall_at_k,hit_at_3_after_rerank,cross_encoder_median_ms,cross_encoder_mean_ms
+3,0.604,0.604,92.1,94.0
+5,0.708,0.667,154.9,155.7
+10,0.833,0.75,332.1,333.2
+20,0.854,0.771,659.1,663.1

@@ -1,0 +1,1398 @@
+[
+  {
+    "id": "C1",
+    "category": "Control",
+    "query": "What is the minimum age to be eligible for election as President of India?",
+    "expected_answer": "Under Article 58(1)(b), a person must have completed the age of thirty-five (35) years to be eligible for election as President of India.",
+    "gold": "completed the age of thirty-five years",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 58(1)(b), p. 56",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "35 years of age",
+        "pattern": "35|thirty-five"
+      },
+      {
+        "claim": "Article 58 citation",
+        "pattern": "58"
+      }
+    ],
+    "gold_ids": [
+      64,
+      73,
+      74,
+      179,
+      180
+    ]
+  },
+  {
+    "id": "C2",
+    "category": "Control",
+    "query": "Which article protects life and personal liberty and what exception does it allow?",
+    "expected_answer": "Article 21 protects life and personal liberty, providing that no person shall be deprived of life or personal liberty except according to procedure established by law.",
+    "gold": "deprived of his life or personal liberty except according to procedure established by law",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 21, p. 42",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Article 21",
+        "pattern": "21"
+      },
+      {
+        "claim": "Procedure established by law",
+        "pattern": "procedure established by law"
+      }
+    ],
+    "gold_ids": [
+      23
+    ]
+  },
+  {
+    "id": "C3",
+    "category": "Control",
+    "query": "How long can an arrested person be detained before being produced before a magistrate, and what journey-time exception applies?",
+    "expected_answer": "Under Article 22(2), every person arrested and detained in custody must be produced before the nearest magistrate within twenty-four hours of arrest, excluding the time necessary for the journey from the place of arrest to the court of the magistrate.",
+    "gold": "within a period of twenty-four hours of such arrest excluding the time necessary for the journey",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 22(2), p. 42-43",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "24 hours",
+        "pattern": "24|twenty-four"
+      },
+      {
+        "claim": "Excluding journey time",
+        "pattern": "journey|travel|excluding"
+      },
+      {
+        "claim": "Nearest magistrate",
+        "pattern": "magistrate"
+      },
+      {
+        "claim": "Article 22",
+        "pattern": "22"
+      }
+    ],
+    "gold_ids": [
+      24
+    ]
+  },
+  {
+    "id": "C4",
+    "category": "Control",
+    "query": "What is the ordinary duration of the House of the People, and under what condition and for how long can it be extended?",
+    "expected_answer": "Under Article 83(2), the House of the People continues for five years from the date appointed for its first meeting. While a Proclamation of Emergency is in operation, Parliament may by law extend this period for not exceeding one year at a time, and not extending beyond six months after the proclamation ceases to operate.",
+    "gold": "continue for five years from the date appointed for its first meeting",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 83(2), p. 70",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Ordinary term 5 years",
+        "pattern": "5|five\\s*years"
+      },
+      {
+        "claim": "Emergency extension up to 1 year at a time",
+        "pattern": "one year|1 year|emergency"
+      },
+      {
+        "claim": "Article 83",
+        "pattern": "83"
+      }
+    ],
+    "gold_ids": [
+      91,
+      201,
+      312,
+      313,
+      334
+    ]
+  },
+  {
+    "id": "C6",
+    "category": "Control",
+    "query": "To whom is the Council of Ministers collectively responsible?",
+    "expected_answer": "Under Article 75(3), the Council of Ministers shall be collectively responsible to the House of the People.",
+    "gold": "Council of Ministers shall be collectively responsible to the House of the People",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 75(3), p. 66",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "House of the People / Lok Sabha",
+        "pattern": "house of the people|lok sabha"
+      },
+      {
+        "claim": "Article 75",
+        "pattern": "75"
+      }
+    ],
+    "gold_ids": [
+      83
+    ]
+  },
+  {
+    "id": "C7",
+    "category": "Control",
+    "query": "In which House of Parliament can a Money Bill NOT be introduced?",
+    "expected_answer": "Under Article 109(1), a Money Bill shall not be introduced in the Council of States (Rajya Sabha).",
+    "gold": "Money Bill shall not be introduced in the Council of States",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 109(1), p. 80",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Council of States / Rajya Sabha",
+        "pattern": "council of states|rajya sabha"
+      },
+      {
+        "claim": "Cannot be introduced",
+        "pattern": "not|cannot"
+      },
+      {
+        "claim": "Article 109",
+        "pattern": "109"
+      }
+    ],
+    "gold_ids": [
+      119
+    ]
+  },
+  {
+    "id": "K1",
+    "category": "Keyword trap",
+    "query": "Is an Indian citizen allowed to accept a knighthood or honour from a foreign government?",
+    "expected_answer": "Under Article 18(2), no citizen of India shall accept any title from any foreign State.",
+    "gold": "No citizen of India shall accept any title from any foreign State",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 18(2), p. 40",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "No citizen shall accept",
+        "pattern": "no|not|cannot|prohibit"
+      },
+      {
+        "claim": "Title from foreign State",
+        "pattern": "title"
+      },
+      {
+        "claim": "Article 18",
+        "pattern": "18"
+      }
+    ],
+    "gold_ids": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": "K2",
+    "category": "Keyword trap",
+    "query": "Who has the power to pardon a person sentenced to death?",
+    "expected_answer": "Under Article 72(1)(c), the President has the power to grant pardons, reprieves, respites or remissions of punishment or to suspend, remit or commute the sentence of any person in all cases where the sentence is a sentence of death.",
+    "gold": "in all cases where the sentence is a sentence of death",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 72(1)(c), p. 64",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "President",
+        "pattern": "president"
+      },
+      {
+        "claim": "Article 72",
+        "pattern": "72"
+      }
+    ],
+    "gold_ids": [
+      79
+    ]
+  },
+  {
+    "id": "K3",
+    "category": "Keyword trap",
+    "query": "How can the head of the Indian state be thrown out of office before the term ends?",
+    "expected_answer": "Under Article 61, the President (head of state) can be removed from office before term expiration through impeachment for violation of the Constitution, upon a resolution passed by a two-thirds majority of the total membership of each House.",
+    "gold": "Procedure for impeachment of the President",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 61, p. 60",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Impeachment procedure",
+        "pattern": "impeach"
+      },
+      {
+        "claim": "Violation of Constitution",
+        "pattern": "violation of the constitution"
+      },
+      {
+        "claim": "Article 61",
+        "pattern": "61"
+      }
+    ],
+    "gold_ids": [
+      68
+    ]
+  },
+  {
+    "id": "K4",
+    "category": "Keyword trap",
+    "query": "Who picks the top judge of the apex court?",
+    "expected_answer": "Under Article 124(2), every Judge of the Supreme Court (including the Chief Justice of India) shall be appointed by the President by warrant under his hand and seal.",
+    "gold": "Judge of the Supreme Court shall be appointed by the President by warrant under his hand and seal",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 124(2), p. 88",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "President",
+        "pattern": "president"
+      },
+      {
+        "claim": "Article 124",
+        "pattern": "124"
+      }
+    ],
+    "gold_ids": [
+      142
+    ]
+  },
+  {
+    "id": "K5",
+    "category": "Keyword trap",
+    "query": "Can the police force of one State investigate or exercise jurisdiction in another State without permission?",
+    "expected_answer": "Under the Seventh Schedule (Union List, Entry 80), powers and jurisdiction of a State police force cannot be extended to another State so as to enable police to exercise powers without the consent of the Government of that State.",
+    "gold": "without the consent of the Government of the State in which such area is situated",
+    "gold_sufficiency": "any",
+    "source_citation": "Seventh Schedule, List I, Entry 80, p. 346",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Requires consent of State government",
+        "pattern": "consent"
+      },
+      {
+        "claim": "Cannot exercise without consent",
+        "pattern": "without|not|consent"
+      }
+    ],
+    "gold_ids": [
+      812
+    ]
+  },
+  {
+    "id": "K6",
+    "category": "Keyword trap",
+    "query": "Is private property completely immune from government acquisition?",
+    "expected_answer": "Under Article 300A, property is not immune: no person shall be deprived of his property save by authority of law.",
+    "gold": "No person shall be deprived of his property save by authority of law",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 300A, p. 201-202",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Authority of law allows deprivation",
+        "pattern": "authority of law"
+      },
+      {
+        "claim": "Article 300A",
+        "pattern": "300A"
+      }
+    ],
+    "gold_ids": [
+      447
+    ]
+  },
+  {
+    "id": "K7",
+    "category": "Keyword trap",
+    "query": "What happens when the government of a province or region breaks down and cannot function under constitutional rules?",
+    "expected_answer": "Under Article 356, if the President is satisfied that a situation has arisen where the Government of the State cannot be carried on in accordance with the Constitution, the President may issue a Proclamation assuming state powers (President's Rule).",
+    "gold": "Government of the State cannot be carried on in accordance with the provisions of this Constitution",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 356(1), p. 242",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "President's proclamation / rule",
+        "pattern": "president|proclamation"
+      },
+      {
+        "claim": "Article 356",
+        "pattern": "356"
+      }
+    ],
+    "gold_ids": [
+      564,
+      565,
+      594,
+      595
+    ]
+  },
+  {
+    "id": "E1",
+    "category": "Exception",
+    "query": "Are there any persons to whom the protections against arrest and detention in Article 22 do not apply?",
+    "expected_answer": "Under Article 22(3), the arrest protections do not apply to: (a) any person who for the time being is an enemy alien, or (b) any person arrested or detained under any law providing for preventive detention.",
+    "gold": "enemy alien",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 22(3), p. 43",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Enemy alien",
+        "pattern": "enemy alien"
+      },
+      {
+        "claim": "Preventive detention",
+        "pattern": "preventive detention"
+      },
+      {
+        "claim": "Article 22",
+        "pattern": "22"
+      }
+    ],
+    "gold_ids": [
+      24,
+      25
+    ]
+  },
+  {
+    "id": "E2",
+    "category": "Exception",
+    "query": "Despite equality of opportunity in public employment, can the State reserve posts for some groups?",
+    "expected_answer": "Under Article 16(4), nothing shall prevent the State from making any provision for the reservation of appointments or posts in favour of any backward class of citizens not adequately represented in State services.",
+    "gold": "reservation of appointments or posts in favour of any backward class",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 16(4), p. 39",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Backward class reservation",
+        "pattern": "backward class|reservation"
+      },
+      {
+        "claim": "Article 16",
+        "pattern": "16"
+      }
+    ],
+    "gold_ids": [
+      15
+    ]
+  },
+  {
+    "id": "E3",
+    "category": "Exception",
+    "query": "What is the longest period preventive detention can last without an Advisory Board review?",
+    "expected_answer": "Under Article 22(4), no law providing for preventive detention shall authorise detention for a longer period than three months unless an Advisory Board has reported sufficient cause before the expiration of three months.",
+    "gold": "longer period than three months unless",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 22(4), p. 43",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Three months maximum",
+        "pattern": "three months|3 months"
+      },
+      {
+        "claim": "Advisory Board requirement",
+        "pattern": "advisory board"
+      },
+      {
+        "claim": "Article 22",
+        "pattern": "22"
+      }
+    ],
+    "gold_ids": [
+      25,
+      26
+    ]
+  },
+  {
+    "id": "E4",
+    "category": "Exception",
+    "query": "Can the right to move any court for the enforcement of fundamental rights be suspended during an emergency, and which rights are exempt from suspension?",
+    "expected_answer": "Under Article 359(1), the President may by order suspend the right to move any court for enforcement of fundamental rights during an emergency, except the rights conferred by Articles 20 and 21, which can never be suspended.",
+    "gold": "right to move any court for the enforcement of such of the rights conferred by Part III \\(except articles 20 and 21\\)",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 359(1), p. 247",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "President may suspend by order",
+        "pattern": "president|order|suspend"
+      },
+      {
+        "claim": "Articles 20 and 21 exempt",
+        "pattern": "20.*21|21.*20|articles?\\s*20\\s*and\\s*21"
+      },
+      {
+        "claim": "Article 359",
+        "pattern": "359"
+      }
+    ],
+    "gold_ids": [
+      576
+    ]
+  },
+  {
+    "id": "E5",
+    "category": "Exception",
+    "query": "Under what circumstances can Parliament legislate on a subject enumerated in the State List in the national interest?",
+    "expected_answer": "Under Article 249(1), Parliament can legislate on a State List subject if the Council of States declares by resolution supported by not less than two-thirds of the members present and voting that it is necessary or expedient in the national interest.",
+    "gold": "necessary or expedient in the national interest that Parliament should make laws with respect to",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 249(1), p. 177",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Council of States / Rajya Sabha resolution",
+        "pattern": "council of states|rajya sabha"
+      },
+      {
+        "claim": "Two-thirds present and voting",
+        "pattern": "two-thirds|2/3"
+      },
+      {
+        "claim": "National interest",
+        "pattern": "national interest"
+      },
+      {
+        "claim": "Article 249",
+        "pattern": "249"
+      }
+    ],
+    "gold_ids": [
+      374
+    ]
+  },
+  {
+    "id": "E6",
+    "category": "Exception",
+    "query": "What grounds of reasonable restrictions can the State impose on freedom of speech and expression?",
+    "expected_answer": "Under Article 19(2), the State may impose reasonable restrictions on freedom of speech in the interests of the sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation or incitement to an offence.",
+    "gold": "friendly relations with foreign States, public order, decency or morality",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 19(2), p. 41",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Public order or security",
+        "pattern": "public order|security"
+      },
+      {
+        "claim": "Sovereignty and integrity",
+        "pattern": "sovereignty|integrity"
+      },
+      {
+        "claim": "Article 19",
+        "pattern": "19"
+      }
+    ],
+    "gold_ids": [
+      20
+    ]
+  },
+  {
+    "id": "E7",
+    "category": "Exception",
+    "query": "Under what circumstances can the President promulgate an Ordinance, and what is its maximum lifespan after Parliament reassembles?",
+    "expected_answer": "Under Article 123, when both Houses of Parliament are not in session, the President may promulgate Ordinances if satisfied immediate action is necessary. An Ordinance ceases to operate at the expiration of six weeks from the reassembly of Parliament, unless disapproved earlier.",
+    "gold": "shall cease to operate at the expiration of six weeks from the reassembly of Parliament",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 123(2)(a), p. 87-88",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "When Parliament not in session",
+        "pattern": "not in session|recess"
+      },
+      {
+        "claim": "Six weeks from reassembly",
+        "pattern": "six weeks|6 weeks"
+      },
+      {
+        "claim": "Article 123",
+        "pattern": "123"
+      }
+    ],
+    "gold_ids": [
+      140
+    ]
+  },
+  {
+    "id": "N1",
+    "category": "Negation",
+    "query": "Is forced labour allowed in India?",
+    "expected_answer": "Under Article 23(1), traffic in human beings and begar and other similar forms of forced labour are prohibited and any contravention is an offence punishable in accordance with law.",
+    "gold": "begar and other similar forms of forced labour",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 23(1), p. 43",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Prohibited",
+        "pattern": "prohibit|not|forbid|unlawful"
+      },
+      {
+        "claim": "Begar / forced labour",
+        "pattern": "forced labour|begar"
+      },
+      {
+        "claim": "Article 23",
+        "pattern": "23"
+      }
+    ],
+    "gold_ids": [
+      31
+    ]
+  },
+  {
+    "id": "N2",
+    "category": "Negation",
+    "query": "Can a child below fourteen be employed in a factory?",
+    "expected_answer": "Under Article 24, no child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment.",
+    "gold": "No child below the age of fourteen years shall be employed to work in any factory",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 24, p. 44",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Prohibited / no child",
+        "pattern": "not|no|prohibit"
+      },
+      {
+        "claim": "Below fourteen years",
+        "pattern": "fourteen|14"
+      },
+      {
+        "claim": "Article 24",
+        "pattern": "24"
+      }
+    ],
+    "gold_ids": [
+      32
+    ]
+  },
+  {
+    "id": "N3",
+    "category": "Negation",
+    "query": "Can a Governor also be a Member of Parliament?",
+    "expected_answer": "Under Article 158(1), the Governor shall not be a member of either House of Parliament or of a House of the Legislature of any State.",
+    "gold": "The Governor shall not be a member of either House",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 158(1), p. 98",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Cannot be a member",
+        "pattern": "not|cannot|no"
+      },
+      {
+        "claim": "Article 158",
+        "pattern": "158"
+      }
+    ],
+    "gold_ids": [
+      180
+    ]
+  },
+  {
+    "id": "N4",
+    "category": "Negation",
+    "query": "Can educational institutions fully funded by the State provide religious instruction?",
+    "expected_answer": "Under Article 28(1), no religious instruction shall be provided in any educational institution wholly maintained out of State funds.",
+    "gold": "No religious instruction shall be provided in any educational institution wholly maintained out of State funds",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 28(1), p. 45",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "No religious instruction allowed",
+        "pattern": "not|no|cannot|prohibit"
+      },
+      {
+        "claim": "Wholly maintained out of State funds",
+        "pattern": "state funds"
+      },
+      {
+        "claim": "Article 28",
+        "pattern": "28"
+      }
+    ],
+    "gold_ids": [
+      34
+    ]
+  },
+  {
+    "id": "N5",
+    "category": "Negation",
+    "query": "What are the specific constitutional grounds for disqualification from being chosen as or being a member of either House of Parliament?",
+    "expected_answer": "Under Article 102(1), grounds include: holding an office of profit under the Government (other than declared exempt by Parliament), being of unsound mind declared by a competent court, being an undischarged insolvent, not being a citizen of India (or voluntary allegiance to a foreign State), or being disqualified under any law made by Parliament.",
+    "gold": "disqualified for being chosen as, and for being, a member of either House of Parliament",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 102(1), p. 76-77",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Office of profit",
+        "pattern": "office of profit"
+      },
+      {
+        "claim": "Unsound mind or insolvent",
+        "pattern": "unsound mind|insolvent"
+      },
+      {
+        "claim": "Citizenship / allegiance to foreign state",
+        "pattern": "citizen|foreign state"
+      },
+      {
+        "claim": "Article 102",
+        "pattern": "102"
+      }
+    ],
+    "gold_ids": [
+      109
+    ]
+  },
+  {
+    "id": "N6",
+    "category": "Negation",
+    "query": "Can a person be prosecuted and punished more than once for the same offence?",
+    "expected_answer": "Under Article 20(2), no person shall be prosecuted and punished for the same offence more than once (protection against double jeopardy).",
+    "gold": "No person shall be prosecuted and punished for the same offence more than once",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 20(2), p. 41",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "No person prosecuted more than once",
+        "pattern": "no|not|cannot|prohibit"
+      },
+      {
+        "claim": "Same offence / double jeopardy",
+        "pattern": "same offence|double jeopardy"
+      },
+      {
+        "claim": "Article 20",
+        "pattern": "20"
+      }
+    ],
+    "gold_ids": [
+      23
+    ]
+  },
+  {
+    "id": "N7",
+    "category": "Negation",
+    "query": "Can an accused person be compelled to be a witness against himself in a criminal proceeding?",
+    "expected_answer": "Under Article 20(3), no person accused of any offence shall be compelled to be a witness against himself (protection against self-incrimination).",
+    "gold": "No person accused of any offence shall be compelled to be a witness against himself",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 20(3), p. 41",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Cannot be compelled",
+        "pattern": "no|not|cannot|compelled"
+      },
+      {
+        "claim": "Witness against himself",
+        "pattern": "witness against himself|self-incrimination"
+      },
+      {
+        "claim": "Article 20",
+        "pattern": "20"
+      }
+    ],
+    "gold_ids": [
+      23
+    ]
+  },
+  {
+    "id": "R1",
+    "category": "Role limit",
+    "query": "At what age must a Supreme Court judge retire?",
+    "expected_answer": "Under Article 124(2), a Judge of the Supreme Court shall hold office until he attains the age of sixty-five (65) years.",
+    "gold": "hold office until he attains the age of sixty-five years",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 124(2), p. 88",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "65 years of age",
+        "pattern": "65|sixty-five"
+      },
+      {
+        "claim": "Article 124",
+        "pattern": "124"
+      }
+    ],
+    "gold_ids": [
+      142
+    ]
+  },
+  {
+    "id": "R2",
+    "category": "Role limit",
+    "query": "What is the minimum age to become a member of the Council of States?",
+    "expected_answer": "Under Article 84(b), a person must be not less than thirty (30) years of age to fill a seat in the Council of States (Rajya Sabha).",
+    "gold": "in the case of a seat in the Council of States, not less than thirty years of age",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 84(b), p. 70",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "30 years of age",
+        "pattern": "30|thirty"
+      },
+      {
+        "claim": "Article 84",
+        "pattern": "84"
+      }
+    ],
+    "gold_ids": [
+      92
+    ]
+  },
+  {
+    "id": "R3",
+    "category": "Role limit",
+    "query": "How many members can the President nominate to the Council of States?",
+    "expected_answer": "Under Article 80(1)(a), the Council of States consists of twelve (12) members to be nominated by the President having special knowledge in literature, science, art, and social service.",
+    "gold": "twelve members to be nominated by the President",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 80(1)(a), p. 69",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "12 members",
+        "pattern": "12|twelve"
+      },
+      {
+        "claim": "Article 80",
+        "pattern": "80"
+      }
+    ],
+    "gold_ids": [
+      86
+    ]
+  },
+  {
+    "id": "R4",
+    "category": "Role limit",
+    "query": "What is the maximum gap allowed between two sessions of Parliament?",
+    "expected_answer": "Under Article 85(1), six months shall not intervene between its last sitting in one session and the date appointed for its first sitting in the next session.",
+    "gold": "six months shall not intervene between its last sitting in one session and the date appointed for its first sitting in the next session",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 85(1), p. 70",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Six months",
+        "pattern": "six months|6 months"
+      },
+      {
+        "claim": "Article 85",
+        "pattern": "85"
+      }
+    ],
+    "gold_ids": [
+      93,
+      203
+    ]
+  },
+  {
+    "id": "R5",
+    "category": "Role limit",
+    "query": "What qualifications are required to be appointed as a Judge of the Supreme Court of India?",
+    "expected_answer": "Under Article 124(3), a person must be a citizen of India and has been for at least 5 years a Judge of a High Court, or for at least 10 years an advocate of a High Court, or is in the opinion of the President a distinguished jurist.",
+    "gold": "at least five years a Judge of a High Court",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 124(3), p. 89",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Citizen of India",
+        "pattern": "citizen"
+      },
+      {
+        "claim": "5 years judge or 10 years advocate",
+        "pattern": "five years|5 years|ten years|10 years"
+      },
+      {
+        "claim": "Distinguished jurist",
+        "pattern": "distinguished jurist|president"
+      },
+      {
+        "claim": "Article 124",
+        "pattern": "124"
+      }
+    ],
+    "gold_ids": [
+      142,
+      143
+    ]
+  },
+  {
+    "id": "R6",
+    "category": "Role limit",
+    "query": "What fraction of a House's members forms the quorum to constitute a meeting of Parliament?",
+    "expected_answer": "Under Article 100(3), the quorum to constitute a meeting of either House of Parliament shall be one-tenth of the total number of members of the House.",
+    "gold": "one-tenth of the total number of members of the House",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 100(3), p. 75",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "One-tenth",
+        "pattern": "one-tenth|1/10|ten"
+      },
+      {
+        "claim": "Article 100",
+        "pattern": "100"
+      }
+    ],
+    "gold_ids": [
+      106,
+      218,
+      559
+    ]
+  },
+  {
+    "id": "R7",
+    "category": "Role limit",
+    "query": "Until what age can a High Court judge hold office?",
+    "expected_answer": "Under Article 217(1), a Judge of a High Court shall hold office until he attains the age of sixty-two (62) years.",
+    "gold": "attains the age of sixty-two years",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 217(1), p. 131",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "62 years of age",
+        "pattern": "62|sixty-two"
+      },
+      {
+        "claim": "Article 217",
+        "pattern": "217"
+      }
+    ],
+    "gold_ids": [
+      259
+    ]
+  },
+  {
+    "id": "P1",
+    "category": "Procedure",
+    "query": "What majority is required in Parliament to pass a constitutional amendment under Article 368?",
+    "expected_answer": "Under Article 368(2), an amendment Bill must be passed in each House by a majority of the total membership of that House AND by a majority of not less than two-thirds of the members of that House present and voting.",
+    "gold": "majority of the total membership of that House and by a majority of not less than two-thirds of the members of that House present and voting",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 368(2), p. 259",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Majority of total membership",
+        "pattern": "total membership"
+      },
+      {
+        "claim": "Two-thirds present and voting",
+        "pattern": "two-thirds|2/3"
+      },
+      {
+        "claim": "Article 368",
+        "pattern": "368"
+      }
+    ],
+    "gold_ids": [
+      144,
+      324,
+      558,
+      607
+    ]
+  },
+  {
+    "id": "P2",
+    "category": "Procedure",
+    "query": "What is the procedure and required notice period to move a resolution for the impeachment of the President?",
+    "expected_answer": "Under Article 61(2), the proposal must be contained in a resolution moved after at least fourteen days' notice in writing signed by not less than one-fourth of the total number of members of the House, and passed by a majority of not less than two-thirds of the total membership of the House.",
+    "gold": "fourteen days' notice in writing signed by not less than one-fourth of the total number of members",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 61(2), p. 60",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "14 days notice",
+        "pattern": "fourteen|14"
+      },
+      {
+        "claim": "One-fourth members sign",
+        "pattern": "one-fourth|1/4"
+      },
+      {
+        "claim": "Two-thirds total membership",
+        "pattern": "two-thirds|2/3"
+      },
+      {
+        "claim": "Article 61",
+        "pattern": "61"
+      }
+    ],
+    "gold_ids": [
+      68
+    ]
+  },
+  {
+    "id": "P3",
+    "category": "Procedure",
+    "query": "How long can the Council of States delay a Money Bill before it is deemed passed by both Houses?",
+    "expected_answer": "Under Article 109(5), if a Money Bill is not returned to the House of the People within fourteen days, it shall be deemed to have been passed by both Houses at the expiration of the said period in the form in which it was passed by the House of the People.",
+    "gold": "within a period of fourteen days from the date of its receipt of the Bill",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 109(5), p. 80",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "14 days limit",
+        "pattern": "fourteen|14"
+      },
+      {
+        "claim": "Deemed passed",
+        "pattern": "deemed.*passed|passed"
+      },
+      {
+        "claim": "Article 109",
+        "pattern": "109"
+      }
+    ],
+    "gold_ids": [
+      119,
+      230
+    ]
+  },
+  {
+    "id": "P4",
+    "category": "Procedure",
+    "query": "How long can a Proclamation of Emergency continue without approval by resolutions of both Houses of Parliament?",
+    "expected_answer": "Under Article 352(4), every Proclamation of Emergency shall cease to operate at the expiration of one month unless before that expiration it has been approved by resolutions of both Houses of Parliament.",
+    "gold": "cease to operate at the expiration of one month",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 352(4), p. 240",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "One month",
+        "pattern": "one month|1 month"
+      },
+      {
+        "claim": "Approval of both Houses",
+        "pattern": "both houses|resolutions"
+      },
+      {
+        "claim": "Article 352",
+        "pattern": "352"
+      }
+    ],
+    "gold_ids": [
+      554
+    ]
+  },
+  {
+    "id": "P5",
+    "category": "Procedure",
+    "query": "Under what conditions can the President declare a Financial Emergency under Article 360?",
+    "expected_answer": "Under Article 360(1), if the President is satisfied that a situation has arisen whereby the financial stability or credit of India or of any part of the territory thereof is threatened, he may declare a Financial Emergency by Proclamation.",
+    "gold": "financial stability or credit of India or of any part of the territory thereof is threatened",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 360(1), p. 248",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Financial stability or credit threatened",
+        "pattern": "financial stability|credit"
+      },
+      {
+        "claim": "President satisfaction",
+        "pattern": "president"
+      },
+      {
+        "claim": "Article 360",
+        "pattern": "360"
+      }
+    ],
+    "gold_ids": [
+      580
+    ]
+  },
+  {
+    "id": "P6",
+    "category": "Procedure",
+    "query": "Under what conditions can the President summon a joint sitting of both Houses of Parliament?",
+    "expected_answer": "Under Article 108(1), if after a Bill has been passed by one House and transmitted to the other: (a) the Bill is rejected, (b) the Houses finally disagree as to amendments, or (c) more than six months elapse without being passed, the President may summon a joint sitting (except for a Money Bill).",
+    "gold": "Joint sitting of both Houses in certain cases",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 108(1), p. 79-80",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Deadlock conditions / six months",
+        "pattern": "rejected|disagree|six months"
+      },
+      {
+        "claim": "President summons",
+        "pattern": "president"
+      },
+      {
+        "claim": "Article 108",
+        "pattern": "108"
+      }
+    ],
+    "gold_ids": [
+      115,
+      116
+    ]
+  },
+  {
+    "id": "P7",
+    "category": "Procedure",
+    "query": "What is the official language of the Union and what script must be used?",
+    "expected_answer": "Under Article 343(1), the official language of the Union shall be Hindi in Devanagari script.",
+    "gold": "official language of the Union shall be Hindi in Devanagari script",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 343(1), p. 235",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Hindi",
+        "pattern": "hindi"
+      },
+      {
+        "claim": "Devanagari script",
+        "pattern": "devanagari"
+      },
+      {
+        "claim": "Article 343",
+        "pattern": "343"
+      }
+    ],
+    "gold_ids": [
+      539
+    ]
+  },
+  {
+    "id": "X1",
+    "category": "Cross-article",
+    "query": "How does the pardoning power of the President compare with that of a State Governor regarding death sentences?",
+    "expected_answer": "Under Article 72(1)(c), the President has exclusive power to pardon, commute, or remit sentences of death in all cases. Under Article 161, a Governor has power to grant pardons for offences against State laws, but cannot pardon death sentences except to suspend, remit, or commute where provided by law.",
+    "gold": "in all cases where the sentence is a sentence of death",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 72 vs Article 161, p. 64, 100",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "President handles death sentences",
+        "pattern": "president"
+      },
+      {
+        "claim": "Governor power under state law",
+        "pattern": "governor"
+      },
+      {
+        "claim": "Article 72 or 161",
+        "pattern": "72|161"
+      }
+    ],
+    "gold_ids": [
+      79
+    ]
+  },
+  {
+    "id": "X2",
+    "category": "Cross-article",
+    "query": "What happens when a law made by a State Legislature is repugnant to a law made by Parliament on a Concurrent List subject?",
+    "expected_answer": "Under Article 254(1), the law made by Parliament shall prevail and the law made by the Legislature of the State shall, to the extent of the repugnancy, be void (subject to Article 254(2) where Presidential assent was obtained).",
+    "gold": "law made by Parliament.*shall prevail and the law made by the Legislature of the State shall, to the extent of the repugnancy, be void",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 254, p. 179",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Parliament law prevails",
+        "pattern": "parliament.*prevail|prevail"
+      },
+      {
+        "claim": "State law void to extent of repugnancy",
+        "pattern": "void|repugnan"
+      },
+      {
+        "claim": "Article 254",
+        "pattern": "254"
+      }
+    ],
+    "gold_ids": [
+      380
+    ]
+  },
+  {
+    "id": "X3",
+    "category": "Cross-article",
+    "query": "To whom does the Speaker of the House of the People address a resignation letter, and to whom does the Deputy Speaker address theirs?",
+    "expected_answer": "Under Article 94(b), the Speaker addresses their resignation under hand to the Deputy Speaker, and the Deputy Speaker addresses their resignation to the Speaker.",
+    "gold": "addressed, if such member is the Speaker, to the Deputy Speaker, and if such member is the Deputy Speaker, to the Speaker",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 94(b), p. 73",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Speaker to Deputy Speaker",
+        "pattern": "deputy speaker"
+      },
+      {
+        "claim": "Deputy Speaker to Speaker",
+        "pattern": "speaker"
+      },
+      {
+        "claim": "Article 94",
+        "pattern": "94"
+      }
+    ],
+    "gold_ids": [
+      100,
+      206,
+      207
+    ]
+  },
+  {
+    "id": "X4",
+    "category": "Cross-article",
+    "query": "How do the qualifications for appointment as a High Court judge differ from those of a Supreme Court judge?",
+    "expected_answer": "Under Article 124(3), a Supreme Court judge requires citizenship plus at least 5 years as High Court judge, or 10 years as High Court advocate, or being a distinguished jurist. Under Article 217(2), a High Court judge requires citizenship plus at least 10 years holding judicial office or 10 years as High Court advocate (no distinguished jurist category).",
+    "gold": "at least five years a Judge of a High Court",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 124(3) vs Article 217(2), p. 89, 131",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "5 years vs 10 years requirements",
+        "pattern": "five years|5 years|ten years|10 years"
+      },
+      {
+        "claim": "Article 124 or 217",
+        "pattern": "124|217"
+      }
+    ],
+    "gold_ids": [
+      142,
+      143
+    ]
+  },
+  {
+    "id": "X5",
+    "category": "Cross-article",
+    "query": "How does the retirement age of a Supreme Court judge compare to that of a High Court judge?",
+    "expected_answer": "Under Article 124(2), a Supreme Court judge retires at the age of sixty-five (65) years, whereas under Article 217(1), a High Court judge retires at the age of sixty-two (62) years.",
+    "gold": "hold office until he attains the age of sixty-five years",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 124(2) vs Article 217(1), p. 88, 131",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Supreme Court 65 years",
+        "pattern": "65|sixty-five"
+      },
+      {
+        "claim": "High Court 62 years",
+        "pattern": "62|sixty-two"
+      },
+      {
+        "claim": "Article 124 and 217",
+        "pattern": "124|217"
+      }
+    ],
+    "gold_ids": [
+      142
+    ]
+  },
+  {
+    "id": "X6",
+    "category": "Cross-article",
+    "query": "What is the constitutional provision for equal pay for equal work, and is it an enforceable fundamental right or a Directive Principle?",
+    "expected_answer": "Under Article 39(d), equal pay for equal work for both men and women is a Directive Principle of State Policy (Part IV), which guides governance but is non-justiciable under Article 37.",
+    "gold": "that there is equal pay for equal work for both men and women",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 39(d), p. 52",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Equal pay for equal work",
+        "pattern": "equal pay"
+      },
+      {
+        "claim": "Directive Principle / Part IV",
+        "pattern": "directive principle|policy|part iv"
+      },
+      {
+        "claim": "Article 39",
+        "pattern": "39"
+      }
+    ],
+    "gold_ids": [
+      50,
+      51
+    ]
+  },
+  {
+    "id": "X7",
+    "category": "Cross-article",
+    "query": "How does the procedure for introducing a Money Bill in a State Legislature compare to Parliament?",
+    "expected_answer": "Under Articles 109 and 198, in both Parliament and State Legislatures, a Money Bill cannot be introduced in the upper house (Council of States / Legislative Council). In both, the upper house has 14 days to make recommendations.",
+    "gold": "Special procedure in respect of Money Bills",
+    "gold_sufficiency": "any",
+    "source_citation": "Article 109 vs Article 198, p. 80, 117",
+    "is_unanswerable": false,
+    "required_facts": [
+      {
+        "claim": "Cannot be introduced in upper house",
+        "pattern": "not.*introduced|council"
+      },
+      {
+        "claim": "14 days recommendation window",
+        "pattern": "fourteen|14"
+      },
+      {
+        "claim": "Article 109 or 198",
+        "pattern": "109|198"
+      }
+    ],
+    "gold_ids": [
+      119,
+      229,
+      230
+    ]
+  },
+  {
+    "id": "U1",
+    "category": "Unanswerable",
+    "query": "What is the mandatory retirement age for the President of India?",
+    "expected_answer": "The provided context does not contain the answer. (The Constitution prescribes no maximum retirement age for the President).",
+    "gold": "",
+    "gold_sufficiency": "any",
+    "source_citation": "N/A (unanswerable from Constitution)",
+    "is_unanswerable": true,
+    "required_facts": [
+      {
+        "claim": "Abstention",
+        "pattern": "does not contain the answer"
+      }
+    ],
+    "gold_ids": []
+  },
+  {
+    "id": "U2",
+    "category": "Unanswerable",
+    "query": "What is the standard rate of Goods and Services Tax (GST) applicable to legal software services in India?",
+    "expected_answer": "The provided context does not contain the answer. (GST rates are prescribed by statutory council notifications, not in the Constitution text).",
+    "gold": "",
+    "gold_sufficiency": "any",
+    "source_citation": "N/A (unanswerable from Constitution)",
+    "is_unanswerable": true,
+    "required_facts": [
+      {
+        "claim": "Abstention",
+        "pattern": "does not contain the answer"
+      }
+    ],
+    "gold_ids": []
+  },
+  {
+    "id": "U3",
+    "category": "Unanswerable",
+    "query": "How many judges serve on the United States Supreme Court according to the Constitution?",
+    "expected_answer": "The provided context does not contain the answer. (The Constitution of India does not govern foreign courts).",
+    "gold": "",
+    "gold_sufficiency": "any",
+    "source_citation": "N/A (unanswerable from Constitution)",
+    "is_unanswerable": true,
+    "required_facts": [
+      {
+        "claim": "Abstention",
+        "pattern": "does not contain the answer"
+      }
+    ],
+    "gold_ids": []
+  },
+  {
+    "id": "U4",
+    "category": "Unanswerable",
+    "query": "What is the maximum legal speed limit on national expressways according to the Constitution of India?",
+    "expected_answer": "The provided context does not contain the answer. (Speed limits are governed by the Motor Vehicles Act, not the Constitution).",
+    "gold": "",
+    "gold_sufficiency": "any",
+    "source_citation": "N/A (unanswerable from Constitution)",
+    "is_unanswerable": true,
+    "required_facts": [
+      {
+        "claim": "Abstention",
+        "pattern": "does not contain the answer"
+      }
+    ],
+    "gold_ids": []
+  },
+  {
+    "id": "U5",
+    "category": "Unanswerable",
+    "query": "What is the minimum educational degree required to become the Prime Minister of India?",
+    "expected_answer": "The provided context does not contain the answer. (The Constitution prescribes no educational qualifications for the Prime Minister or MPs).",
+    "gold": "",
+    "gold_sufficiency": "any",
+    "source_citation": "N/A (unanswerable from Constitution)",
+    "is_unanswerable": true,
+    "required_facts": [
+      {
+        "claim": "Abstention",
+        "pattern": "does not contain the answer"
+      }
+    ],
+    "gold_ids": []
+  },
+  {
+    "id": "U6",
+    "category": "Unanswerable",
+    "query": "What is the statutory monetary fine for copyright infringement of digital media under the Constitution of India?",
+    "expected_answer": "The provided context does not contain the answer. (Copyright penalties are statutory under the Copyright Act, not in the Constitution).",
+    "gold": "",
+    "gold_sufficiency": "any",
+    "source_citation": "N/A (unanswerable from Constitution)",
+    "is_unanswerable": true,
+    "required_facts": [
+      {
+        "claim": "Abstention",
+        "pattern": "does not contain the answer"
+      }
+    ],
+    "gold_ids": []
+  },
+  {
+    "id": "U7",
+    "category": "Unanswerable",
+    "query": "How many non-permanent members serve on the United Nations Security Council according to the Constitution?",
+    "expected_answer": "The provided context does not contain the answer. (UN Security Council composition is determined by the UN Charter, not the Constitution of India).",
+    "gold": "",
+    "gold_sufficiency": "any",
+    "source_citation": "N/A (unanswerable from Constitution)",
+    "is_unanswerable": true,
+    "required_facts": [
+      {
+        "claim": "Abstention",
+        "pattern": "does not contain the answer"
+      }
+    ],
+    "gold_ids": []
+  }
+]

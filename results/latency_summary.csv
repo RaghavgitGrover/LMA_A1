@@ -1,0 +1,8 @@
+stage,median_ms,mean_ms
+embed_query (Bi-Encoder),9.88,9.72
+faiss_search (IndexFlatIP),0.14,0.14
+cross_encoder_rerank (10 candidates),324.97,322.03
+total_baseline_retrieval,10.02,9.85
+total_rerank_retrieval,333.98,331.88
+llm_generation_fresh_answer1,13160.0,14654.86
+llm_generation_fresh_answer2,12740.0,13454.29

@@ -1,0 +1,9 @@
+category,n,candidate_recall10,base_hit3,rerank_hit3,fixed,degraded,both_ok,gold_missing,unanswerable
+Control,6.0,0.667,0.667,0.5,0.0,1.0,3.0,2.0,0.0
+Cross-article,7.0,1.0,0.714,0.714,1.0,1.0,4.0,0.0,0.0
+Exception,7.0,0.857,0.571,0.857,2.0,0.0,4.0,1.0,0.0
+Keyword trap,7.0,0.429,0.286,0.429,1.0,0.0,2.0,4.0,0.0
+Negation,7.0,0.857,0.571,0.857,2.0,0.0,4.0,1.0,0.0
+Procedure,7.0,1.0,0.571,0.857,2.0,0.0,4.0,0.0,0.0
+Role limit,7.0,1.0,0.857,1.0,1.0,0.0,6.0,0.0,0.0
+Unanswerable,7.0,,,,0.0,0.0,0.0,0.0,7.0

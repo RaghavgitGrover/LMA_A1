@@ -1,0 +1,8 @@
+# Environments
+venv/
+.venv/
+
+# LaTeX build artifacts & logs
+*.aux
+*.log
+*.out

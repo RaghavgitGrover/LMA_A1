@@ -1,0 +1,5 @@
+corpus_chunks,estimated_cross_encoder_seconds,estimated_faiss_flat_ms,note
+10000,344.99,0.57,Theoretical linear extrapolation assuming fixed batch size and single-thread CPU execution
+100000,3449.9,5.7,Theoretical linear extrapolation assuming fixed batch size and single-thread CPU execution
+1000000,34499.04,56.99,Theoretical linear extrapolation assuming fixed batch size and single-thread CPU execution
+10000000,344990.39,569.95,Theoretical linear extrapolation assuming fixed batch size and single-thread CPU execution
